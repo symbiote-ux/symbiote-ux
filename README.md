@@ -2,7 +2,7 @@
 I'm currently working on typescript , react, nest, prisma, postgresql.<br>I'm currently learning cloud computing.<br>
 
 ## 👨🏻‍💻 Work:
-[![Github](https://img.shields.io/badge/Github-%230077B5.svg?logo=github&logoColor=white)](https://github.com/saurabhchauhan-T?tab=overview) 
+[![Github](https://img.shields.io/badge/github-%23E0234E.svg?logo=github&logoColor=white)](https://github.com/saurabhchauhan-T?tab=overview) 
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/chauhansaurabh14) 
