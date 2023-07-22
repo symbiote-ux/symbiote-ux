@@ -1,9 +1,10 @@
 # 💫 About Me:
 I'm currently working on typescript , react, nest, prisma, postgresql.<br>I'm currently learning cloud computing.<br>
 
+## 👨🏻‍💻 Work:
+[![Github](https://img.shields.io/badge/Github-%230077B5.svg?logo=github&logoColor=white)](https://github.com/saurabhchauhan-T?tab=overview&from=2023-03-01&to=2023-03-31) 
 
 ## 🌐 Socials:
-Work:[![Github](https://img.shields.io/badge/Github-%230077B5.svg?logo=github&logoColor=white)](https://github.com/saurabhchauhan-T?tab=overview&from=2023-03-01&to=2023-03-31) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/chauhansaurabh14) 
 [![Leetcode](https://img.shields.io/badge/Leetcode-%230077B5.svg?logo=leetcode&logoColor=white)](https://leetcode.com/symbiote-ux/) 
 [![Medium](https://img.shields.io/badge/Medium-%230077B5.svg?logo=medium&logoColor=white)](https://medium.com/@tnikhil422) 
