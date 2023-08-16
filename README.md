@@ -4,6 +4,9 @@ I'm currently working on typescript , react, nest, prisma, postgresql.<br>I'm cu
 ## 👨🏻‍💻 Work:
 [![Github](https://img.shields.io/badge/github-%23E0234E.svg?logo=github&logoColor=white)](https://github.com/saurabhchauhan-T?tab=overview) 
 
+## Learning 🛣️ RoadMap 
+[![roadmap.sh](https://api.roadmap.sh/v1-badge/wide/64dc59b2095da82caf9968cd?variant=light)](https://roadmap.sh)
+
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/chauhansaurabh14) 
 [![Leetcode](https://img.shields.io/badge/Leetcode-%230077B5.svg?logo=leetcode&logoColor=white)](https://leetcode.com/symbiote-ux/) 
