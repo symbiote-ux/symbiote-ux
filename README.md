@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on React, Javascript, HTML, CSS<br>💬 Ask me about Javascript, History, Business operation.<br>⚡ For Money you need to do Business, for Business you need Money.<br>         while(Money) {<br>                 Do 'Business'<br>                 Business = Money<br>                 Money = Business<br>             }
+🔭 I’m currently working on React, Javascript, HTML, CSS<br>💬 Ask me about Javascript, History, Business operation.]
 
 
 ## 🌐 Socials:
