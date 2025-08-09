@@ -1,10 +1,10 @@
 # 💫 About Me:
-🔭 I’m currently working on React, Javascript, HTML, CSS<br>💬 Ask me about Javascript, History, Business operation.]
+🔭 I’m currently working on AI in career counselling using Javascript, Next.js, PostgreSQL, AWS <br>💬 Ask me about Tech, History, Business operation.
 
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/chauhansaurabh14) 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%230077B5.svg?logo=portfolio&logoColor=white)](https://100rabh-chauhan.netlify.app/) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-%230077B5.svg?logo=portfolio&logoColor=white)](https://chauhan-saurabh.vercel.app/) 
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@@tnikhil422) 
 [![Leetcode](https://img.shields.io/badge/Leetcode-%230077B5.svg?logo=leetcode&logoColor=white)](https://leetcode.com/symbiote-ux/) 
 
