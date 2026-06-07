@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on AI in career counselling using Javascript, Next.js, PostgreSQL, AWS <br>💬 Ask me about Tech, History, Business operation.
+🔭 I’m currently working on Trackye using Javascript, Next.js, PostgreSQL, AWS <br>💬 Ask me about Tech, History, Business operation.
 
 
 ## 🌐 Socials:
