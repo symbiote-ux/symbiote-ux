@@ -254,29 +254,6 @@ A Strategy Pattern implementation for scalable upload processing that routes dif
 
 🔗 https://gist.github.com/symbiote-ux/8b03fe521200e8842dcafa80a927ebd0
 
----
-
-### 🔌 Generic OAuth Connector Plugin Architecture
-
-A scalable Registry Pattern for managing OAuth integrations such as Google, Meta, Slack, and other third-party providers through reusable connector plugins.
-
-**Highlights**
-
-- Registry Pattern
-- Plugin architecture
-- OAuth abstraction
-- Token encryption
-- Connector lifecycle management
-- Scalable third-party integrations
-
-**Topics**
-
-`Design Patterns` • `OAuth` • `Backend Architecture` • `Extensibility`
-
-🔗 https://gist.github.com/symbiote-ux/f379868de5281b0fe2d105f7ae25b0e4
-
----
-
 ## 🚀 Developer Experience
 
 ### ⚡ next-secure-action
