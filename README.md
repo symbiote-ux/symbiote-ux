@@ -145,28 +145,7 @@ A production-ready distributed sliding-window rate limiter using **Upstash Redis
 
 🔗 https://gist.github.com/symbiote-ux/6a5a18db53bc667ab6faaffb3cce0838
 
----
 
-### ⚡ Type-safe Next.js Server Action Middleware
-
-A reusable middleware layer for **Next.js Server Actions** that centralizes authentication, validation, structured logging, dependency injection, and error handling.
-
-**Highlights**
-
-- Authentication middleware
-- Zod validation
-- Structured logging
-- Safe error boundaries
-- Type-safe actions
-- Dependency injection
-
-**Topics**
-
-`Next.js` • `TypeScript` • `Security` • `Developer Experience`
-
-🔗 https://gist.github.com/symbiote-ux/493d26aff99c1f3a91dfe5064893bb9c
-
----
 
 ### 🔒 Preventing IDOR in Next.js Server Actions
 
