@@ -118,93 +118,185 @@ Most of my work revolves around:
 * ✅ Designed systems processing **1.2M+ records**
 * ✅ End-to-end ownership from architecture to production deployment
 
+# 🏗️ Engineering Patterns & Architecture Notes
 
-# 📝 Engineering Notes & Production Patterns
+Most of these patterns were extracted from production systems while building multi-tenant SaaS applications and AI-powered platforms. Rather than framework tutorials, they document reusable architectural decisions that improve scalability, maintainability, security, developer experience, and cloud-native architectures.
 
-I enjoy writing reusable production patterns that solve common backend and infrastructure problems.
+---
 
-These are patterns I've used or refined while building production software.
+## 🛡️ Security & Backend Infrastructure
 
+### 🚦 Generic Distributed Rate Limiter with Local Fallback
 
-## 🚦 Generic Distributed Rate Limiter with Local Fallback
+A production-ready distributed sliding-window rate limiter using **Upstash Redis** with an automatic in-memory fallback for local development. Designed to prevent abuse while maintaining an excellent developer experience.
 
-Production-ready distributed rate limiter using Upstash Redis with an automatic in-memory sliding-window fallback for local development.
+**Highlights**
 
-### Highlights
+- Distributed sliding-window algorithm
+- Composite IP + Identity rate limiting
+- Upstash Redis integration
+- Automatic local development fallback
+- Cost amplification protection
+- Production-safe architecture
 
-* Distributed Sliding Window algorithm
-* Composite IP + Identity rate limiting
-* Upstash Redis integration
-* Local development fallback
-* Production-safe architecture
-* Cost amplification protection
+**Topics**
 
-**Concepts**
+`Redis` • `Distributed Systems` • `Security` • `Rate Limiting`
 
-`Distributed Systems` • `Redis` • `Security` • `Rate Limiting`
+🔗 https://gist.github.com/symbiote-ux/6a5a18db53bc667ab6faaffb3cce0838
 
-➡️ https://gist.github.com/symbiote-ux/6a5a18db53bc667ab6faaffb3cce0838
+---
 
+### ⚡ Type-safe Next.js Server Action Middleware
 
-## ☁️ Robust S3 / Cloudflare R2 Storage Provider
+A reusable middleware layer for **Next.js Server Actions** that centralizes authentication, validation, structured logging, dependency injection, and error handling.
 
-A production-grade abstraction for S3-compatible object storage supporting Cloudflare R2 and AWS S3 with presigned uploads.
+**Highlights**
 
-### Highlights
+- Authentication middleware
+- Zod validation
+- Structured logging
+- Safe error boundaries
+- Type-safe actions
+- Dependency injection
 
-* Presigned uploads
-* Cloudflare R2 support
-* AWS SDK v3
-* Partial object streaming
-* Intelligent cache policies
-* Storage abstraction layer
+**Topics**
 
-**Concepts**
+`Next.js` • `TypeScript` • `Security` • `Developer Experience`
 
-`Cloud Architecture` • `AWS` • `Cloudflare R2` • `Object Storage`
+🔗 https://gist.github.com/symbiote-ux/493d26aff99c1f3a91dfe5064893bb9c
 
-➡️ https://gist.github.com/symbiote-ux/920f0ebccb7f1e854a040d5c114478a8
+---
 
+### 🔒 Preventing IDOR in Next.js Server Actions
 
-## 📂 Polymorphic Upload Finalization Engine
+An architectural pattern demonstrating how to eliminate **Insecure Direct Object Reference (IDOR)** vulnerabilities using reusable middleware for authentication, authorization, validation, and safe error handling.
 
-Strategy Pattern implementation for scalable upload processing and post-upload workflows.
+**Highlights**
 
-### Highlights
+- IDOR prevention
+- Authentication pipeline
+- Authorization middleware
+- Validation-first architecture
+- Discriminated union responses
+- Secure-by-default server mutations
 
-* Intent-based routing
-* Strategy Pattern
-* Zod validation
-* Async cleanup
-* Open/Closed Principle
-* Extensible architecture
+**Topics**
 
-**Concepts**
+`Application Security` • `Next.js` • `Backend Design`
 
-`Design Patterns` • `SOLID Principles` • `Backend Architecture`
+🔗 https://gist.github.com/symbiote-ux/0be5585f3ecfd314a385b41adaa74138
 
-➡️ https://gist.github.com/symbiote-ux/8b03fe521200e8842dcafa80a927ebd0
+---
 
-## ⚡ next-secure-action
+## ☁️ Cloud Infrastructure
 
-Type-safe middleware for Next.js Server Actions with authentication, validation, structured error handling, and multi-tenant support.
+### ☁️ Robust S3 / Cloudflare R2 Storage Provider
 
-### Highlights
+A production-grade abstraction over the AWS SDK v3 for **S3-compatible storage**, supporting Cloudflare R2 with presigned uploads, streaming, intelligent caching, and secure downloads.
 
-* Authentication middleware
-* Type-safe Server Actions
-* Zod validation
-* Generic authentication providers
-* Structured logging
-* Production-safe error handling
-* Multi-tenant architecture
+**Highlights**
 
-**Concepts**
+- Presigned uploads
+- Cloudflare R2 support
+- AWS SDK v3 abstraction
+- Partial object streaming
+- Intelligent cache policies
+- Storage provider interface
 
-`Next.js` • `TypeScript` • `Backend Infrastructure` • `Security`
+**Topics**
 
-➡️ https://gist.github.com/symbiote-ux/25c60a3d3bcbc703f682897a5a36655d
+`AWS` • `Cloudflare R2` • `Object Storage` • `Cloud Architecture`
 
+🔗 https://gist.github.com/symbiote-ux/920f0ebccb7f1e854a040d5c114478a8
+
+---
+
+### 📦 Direct-to-Cloud Upload Architecture (ADR)
+
+An Architecture Decision Record (ADR) explaining the migration from traditional multipart uploads to **direct browser-to-cloud uploads** using S3 Presigned URLs and Cloudflare R2.
+
+**Highlights**
+
+- Direct browser uploads
+- Serverless optimization
+- Zero-memory uploads
+- Upload finalization workflow
+- Lifecycle cleanup strategy
+- Bandwidth cost optimization
+
+**Topics**
+
+`Architecture Decision Records` • `Cloud Storage` • `Serverless` • `Performance`
+
+🔗 https://gist.github.com/symbiote-ux/45cc7fd169670050047b9d494932c27d
+
+---
+
+## 🏛️ Backend Architecture
+
+### 📂 Polymorphic Upload Finalization Engine
+
+A Strategy Pattern implementation for scalable upload processing that routes different upload types to dedicated handlers while keeping business logic modular and extensible.
+
+**Highlights**
+
+- Strategy Pattern
+- Intent-based routing
+- Zod validation
+- Async resource cleanup
+- Open/Closed Principle
+- Extensible architecture
+
+**Topics**
+
+`Design Patterns` • `SOLID` • `Backend Architecture`
+
+🔗 https://gist.github.com/symbiote-ux/8b03fe521200e8842dcafa80a927ebd0
+
+---
+
+### 🔌 Generic OAuth Connector Plugin Architecture
+
+A scalable Registry Pattern for managing OAuth integrations such as Google, Meta, Slack, and other third-party providers through reusable connector plugins.
+
+**Highlights**
+
+- Registry Pattern
+- Plugin architecture
+- OAuth abstraction
+- Token encryption
+- Connector lifecycle management
+- Scalable third-party integrations
+
+**Topics**
+
+`Design Patterns` • `OAuth` • `Backend Architecture` • `Extensibility`
+
+🔗 https://gist.github.com/symbiote-ux/f379868de5281b0fe2d105f7ae25b0e4
+
+---
+
+## 🚀 Developer Experience
+
+### ⚡ next-secure-action
+
+A production-ready framework for building secure, type-safe **Next.js Server Actions** with minimal boilerplate. It combines authentication, validation, structured outputs, logging, and multi-tenant support into a reusable middleware abstraction.
+
+**Highlights**
+
+- Generic authentication providers
+- Type-safe middleware
+- Structured outputs
+- Multi-tenant support
+- Validation-first execution
+- Production-safe error handling
+
+**Topics**
+
+`Developer Experience` • `Next.js` • `TypeScript` • `Security`
+
+🔗 https://gist.github.com/symbiote-ux/25c60a3d3bcbc703f682897a5a36655d
 
 # 🌐 Connect
 
