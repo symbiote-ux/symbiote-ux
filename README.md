@@ -146,28 +146,6 @@ A production-ready distributed sliding-window rate limiter using **Upstash Redis
 🔗 https://gist.github.com/symbiote-ux/6a5a18db53bc667ab6faaffb3cce0838
 
 
-
-### 🔒 Preventing IDOR in Next.js Server Actions
-
-An architectural pattern demonstrating how to eliminate **Insecure Direct Object Reference (IDOR)** vulnerabilities using reusable middleware for authentication, authorization, validation, and safe error handling.
-
-**Highlights**
-
-- IDOR prevention
-- Authentication pipeline
-- Authorization middleware
-- Validation-first architecture
-- Discriminated union responses
-- Secure-by-default server mutations
-
-**Topics**
-
-`Application Security` • `Next.js` • `Backend Design`
-
-🔗 https://gist.github.com/symbiote-ux/0be5585f3ecfd314a385b41adaa74138
-
----
-
 ## ☁️ Cloud Infrastructure
 
 ### ☁️ Robust S3 / Cloudflare R2 Storage Provider
