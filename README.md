@@ -21,7 +21,7 @@ Today I'm focused on building AI-native software that combines Large Language Mo
 
 ## Trackye — AI Memory for Agencies
 
-Trackye is an AI-powered SaaS that captures conversations, voice notes, tasks, meetings, documents, and marketing platform data, then transforms them into organizational memory, automated reports, AI-powered workflows, and actionable business insights.
+Trackye is an AI-powered SaaS that captures conversations, voice notes, tasks, meetings, documents, and marketing platform data, then transforms them into organizational memory, automated quotes & reports, AI-powered workflows, and actionable business insights.
 
 ### Highlights
 
@@ -33,7 +33,7 @@ Trackye is an AI-powered SaaS that captures conversations, voice notes, tasks, m
 * 🏢 Multi-tenant SaaS Architecture
 * 📈 Marketing Platform Integrations
 * 💬 WhatsApp Business API
-* 📊 Meta Ads, Facebook, Instagram, Google Analytics & Google Business Profile Integrations
+* 📊 Meta Ads, Facebook, Instagram, Google Analytics, Search console, Youtube analytics & Google Business Profile Integrations
 
 **Website:** https://trackye.com
 
@@ -71,14 +71,12 @@ Most of my work revolves around:
 * Next.js
 * React
 * Tailwind CSS
-* Server Components
 * Server Actions
 
 ## Backend
 
 * Node.js
 * NestJS
-* Express
 * REST APIs
 * PostgreSQL
 * Prisma
@@ -101,7 +99,6 @@ Most of my work revolves around:
 ## Cloud & DevOps
 
 * AWS
-* Docker
 * GitHub Actions
 * CI/CD
 * Vercel
@@ -121,7 +118,6 @@ Most of my work revolves around:
 * ✅ Designed systems processing **1.2M+ records**
 * ✅ End-to-end ownership from architecture to production deployment
 
----
 
 # 📝 Engineering Notes & Production Patterns
 
@@ -129,7 +125,6 @@ I enjoy writing reusable production patterns that solve common backend and infra
 
 These are patterns I've used or refined while building production software.
 
----
 
 ## 🚦 Generic Distributed Rate Limiter with Local Fallback
 
@@ -190,8 +185,6 @@ Strategy Pattern implementation for scalable upload processing and post-upload w
 
 ➡️ https://gist.github.com/symbiote-ux/8b03fe521200e8842dcafa80a927ebd0
 
----
-
 ## ⚡ next-secure-action
 
 Type-safe middleware for Next.js Server Actions with authentication, validation, structured error handling, and multi-tenant support.
@@ -219,6 +212,7 @@ Type-safe middleware for Next.js Server Actions with authentication, validation,
 * 💼 LinkedIn: https://linkedin.com/in/chauhansaurabh14
 * 🌐 Portfolio: https://founder.trackye.com
 * 📧 Email: [founder@trackye.com](mailto:founder@trackye.com)
+* 📧 Personal Email: [saurabh.chauhan.dev.js@gmail.com](mailto:saurabh.chauhan.dev.js@gmail.com)
 
 ---
 
